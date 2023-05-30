@@ -328,26 +328,119 @@ button {
         .daydeals > div > div:last-child button:hover {
           background-color: yellow;
         }
-        @media (max-width: 768px) {
-       
-          .search-button {
-            padding: 15px 250px;
-          }
-        
-          .product1 img,
-          .product2 img {
-            margin-right: 0;
-          }
-        }
-        
         @media (max-width: 576px) {
-         
-          .search-button {
-            padding: 15px 150px;
+          .nav ul {
+            flex-direction: column;
+          }
+        
+          .nav ul li {
+            margin-right: 0;
+            margin-bottom: 5px;
+            font-size: 14px;
+          }
+        
+          .signup-button {
+            font-size: 12px;
+            margin-top: 10px;
           }
         }
-        
-        
-        
-        
-        
+
+@media (max-width: 768px) {
+  .gugets {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .words {
+    margin-bottom: 20px;
+  }
+
+  .words h1 {
+    font-size: 24px;
+  }
+
+  .words p {
+    font-size: 16px;
+  }
+
+  .image {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .icon {
+    margin: 5px;
+  }
+
+  .icon i {
+    font-size: 20px;
+  }
+
+  .icon span {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .daydeals > div {
+    width: 48%;
+  }
+}
+@media (max-width: 768px) {
+  .new {
+    flex-wrap: wrap;
+    padding: 1.5rem;
+  }
+
+  .new > div {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .new {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .new > div {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .nextlevel {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nextlevel img {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .call {
+    font-size: 14px;
+  }
+
+  .subscriber {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+
+  .footer .gad,
+  .footer .sales,
+  .footer .bonus,
+  .footer .orders,
+  .footer .companies {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+}
