@@ -1,0 +1,353 @@
+.nav {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav ul li {
+  margin-right: 10px;
+}
+
+.highlight-letters {
+  color: yellow;
+}
+
+.fa-bucket {
+  color: yellow;
+}
+
+.signup-button {
+  background-color: yellow;
+  border: none;
+  padding: 5px 10px;
+  color: #333;
+  margin-left: auto;
+}
+  
+  .highlight-letters {
+    color: yellow;
+    font-weight: bold;
+  }
+  
+  .signup-button {
+    background-color: yellow;
+  }
+  .category-button {
+    
+    border: none;
+    color: black;
+    padding: 15px 90px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .search-button{
+    background-color:lightgray ;
+        border: none;
+        color: grey;
+        padding: 15px 350px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      .gugets {
+        display: flex;
+        align-items: center;
+        background-color: #E6E6FA;
+    }
+    .icon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid lightgrey;
+      border-radius: 10px;
+      padding: 10px;
+      margin: 10px;
+      width: 100px;
+      height: 100px;
+  }
+  .microchip{
+    background-color: black;
+  }
+  .day{
+    font-weight: bold;
+  }
+  .deal {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.time{
+  font-weight: bold;
+}
+.daydeals1 {
+  display: flex;
+}
+
+.airdopes {
+  border: 1px solid #333;
+}
+
+.image1,
+.image2,
+.image3,
+.image4 {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+img.dopes {
+  width: 200px;
+  height: 200px;
+}
+
+.audio {
+  width: 50%;
+  height: 50%;
+}
+
+img.sec {
+  width: 50%;
+  height: 50%;
+}
+
+img.fresh {
+  width: 50%;
+  height: 50%;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  background-color: yellow;
+}
+
+
+
+
+    .words {
+        flex: 1;
+    }
+
+    .image {
+        margin-left: 20px;
+    } 
+      .icons-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+       }
+      
+      .icon i {
+        font-size: 30px;
+        margin-bottom: 5px;
+      }
+      
+      .icon span {
+        text-align: center;
+      }
+      .deal{
+        display: flex;
+      } 
+      .new {
+        display: flex;
+        padding: 3rem;
+        justify-content: space-between;
+      } 
+      .product1 img
+      {
+        max-width: 100%;
+        max-height: 100%;
+        margin-right: 10px;
+      }
+      .product2 img{
+        max-width: 100%;
+        max-height: 92%;
+      }
+      .nextlevel {
+        display: flex;
+        align-items: center;
+      }
+    
+      .words {
+        flex: 1;
+      }
+    
+      .nextlevel img {
+        max-width: 100%;
+        height: auto;
+        margin-left: 20px; 
+      }
+  
+.subscriber{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+}
+      .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color:black;
+        color: white;
+        font-size: 14px;
+      }
+    
+      .footer .gad,
+      .footer .sales,
+      .footer .bonus,
+      .footer .orders,
+      .footer .companies {
+        flex-basis: 20%;
+      }
+    
+      .footer h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+    
+      .footer p {
+        margin: 5px 0;
+      } 
+      .nextlevel{
+        background-color: #E6E6FA;
+      } 
+      .smart{
+        background-color: #E6E6FA ;
+      } 
+      .testimo{
+        text-align: center;
+     }
+
+        
+        .cameron p {
+          margin: 0;
+          font-size: 14px;
+          line-height: 1.4;
+        }
+       
+        .cameron {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 20px;
+          background-color: #f2f2f2;
+          color: #555;
+          font-size: 16px;
+        }
+      
+        .cameron p {
+          margin: 0;
+          font-size: 14px;
+          line-height: 1.4;
+        }
+      
+        .cameron h5 {
+          margin: 10px 0;
+          font-size: 18px;
+          font-weight: bold;
+        }
+      
+        .person img {
+          width: 100px;
+          height: 100px;
+          object-fit: cover;
+          border-radius: 50%;
+          margin-left: auto;
+        }
+        .daydeals {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+        .daydeals > div {
+          width: 23%;
+          margin-bottom: 20px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          box-shadow: 0 0 5px #ccc;
+        }
+        .daydeals > div > div:first-child {
+          text-align: center;
+          padding: 10px;
+        }
+        .daydeals > div > div:first-child img {
+          width: 35%;
+          border-radius: 5px;
+        }
+        .daydeals > div > div:first-child h3 {
+          margin-top: 10px;
+          font-size: 18px;
+        }
+        .daydeals > div > div:first-child p {
+          margin-top: 5px;
+          font-size: 12px;
+        }
+        .daydeals> div > div:last-child {
+          text-align: center;
+          padding: 5px;
+        }
+        .daydeals > div > div:last-child h3 {
+          margin-top: 10px;
+          font-size: 14px;
+        }
+        .daydeals > div > div:last-child button {
+          margin-top: 10px;
+          padding: 3px 5px;
+          background-color: yellow;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+        .daydeals > div > div:last-child button:hover {
+          background-color: yellow;
+        }
+        @media (max-width: 768px) {
+       
+          .search-button {
+            padding: 15px 250px;
+          }
+        
+          .product1 img,
+          .product2 img {
+            margin-right: 0;
+          }
+        }
+        
+        @media (max-width: 576px) {
+         
+          .search-button {
+            padding: 15px 150px;
+          }
+        }
+        
+        
+        
+        
+        
